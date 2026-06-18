@@ -1,19 +1,22 @@
 [user]
-	name = Yuwen Memon
-	email = yuwen@expensify.com
-    signingkey = 5523FCA86FB2FEBD
+	name = Jasper Huang
+	email = jasper@expensify.com
+	signingkey = 3845F4AC146ACA6A
 [commit]
 	gpgsign = true
-[alias]
-    co = checkout
-    br = branch
-    ci = commit
-    st = status
 [safe]
-    directory = /vagrant/Web-Expensify
-[github]
-    user=yuwenmemon
-[credential]
-	helper = /usr/local/share/gcm-core/git-credential-manager
-[credential "https://dev.azure.com"]
-	useHttpPath = true
+	directory = /vagrant/Comp/vendor/expensify/PHP-Libs
+	directory = /vagrant/Comp/vendor/expensify/PHP-Libs
+	directory = /vagrant/Comp/vendor/expensify/PHP-Libs
+	directory = /Users/jasperhuang/Expensidev/Auth
+	directory = /Users/jasperhuang/Expensidev/Auth
+	directory = /Users/jasperhuang/Expensidev/Auth
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[push]
+	autoSetupRemote = true
+[tag]
+	gpgSign = true

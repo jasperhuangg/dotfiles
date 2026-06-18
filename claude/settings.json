@@ -1,11 +1,11 @@
 {
-  "model": "opus[1m]",
-  "statusLine": {
-    "type": "command",
-    "command": "~/.claude/statusline.sh",
-    "padding": 0
-  },
   "enabledPlugins": {
     "clangd-lsp@claude-plugins-official": true
-  }
+  },
+  "effortLevel": "high",
+  "voice": {
+    "enabled": true,
+    "mode": "hold"
+  },
+  "voiceEnabled": true
 }

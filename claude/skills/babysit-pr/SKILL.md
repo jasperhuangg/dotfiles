@@ -1,6 +1,6 @@
 ---
 name: babysit-pr
-description: After a pull request is opened, monitor it until CI and bots settle, then respond to actionable bot comments — reply with the "(Yuwen's Agent)" prefix and fix & push when the fix is clear and low-risk. Use right after creating a PR, or on demand to babysit an existing PR (optionally pass a PR number or URL). Skips routine bot noise (codecov, dependabot, imgbot, version bumps, green CI); never auto-responds to human comments.
+description: After a pull request is opened, monitor it until CI and bots settle, then respond to actionable bot comments — reply with the "(Jasper's Agent)" prefix and fix & push when the fix is clear and low-risk. Use right after creating a PR, or on demand to babysit an existing PR (optionally pass a PR number or URL). Skips routine bot noise (codecov, dependabot, imgbot, version bumps, green CI); never auto-responds to human comments.
 ---
 
 # Babysit a Pull Request
@@ -59,7 +59,7 @@ section of `~/.claude/CLAUDE.md`.
   unless asked), then reply in the thread describing the fix.
 - **For ambiguous, subjective, or large fixes:** draft the change and ask the user first instead
   of pushing.
-- **Reply with the `(Yuwen's Agent) ` prefix.** Bot comments may be answered directly; human
+- **Reply with the `(Jasper's Agent) ` prefix.** Bot comments may be answered directly; human
   comments follow the CLAUDE.md rule — draft in chat, never auto-post. If a comment's author type
   is uncertain, treat it as human.
 
